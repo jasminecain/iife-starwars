@@ -18,6 +18,6 @@ return {
   }
 }
 
-})();
-
+// })();
+})(Starwars || {}); //envoked immediately, file order doesn't matter - put in all files
 //private to this fuction, only methods know about this location
